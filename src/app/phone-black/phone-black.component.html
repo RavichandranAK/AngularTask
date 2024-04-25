@@ -1,0 +1,27 @@
+
+
+<body>
+
+
+  <button (click)="black()">Black</button>
+
+<table>
+  <tr>
+    <th>Brand</th>
+    <th>Price</th>
+    <th>Color</th>
+    <th>Rating</th>
+  </tr>
+  
+  
+    <tr *ngFor="let phone of blackphone">
+    <td>{{phone.brand}}</td>
+    <td>{{phone.price}}</td>
+    <td>{{phone.color}}</td>
+    <td>{{phone.rating}}</td>
+  </tr>
+ 
+  </table>
+
+
+</body>

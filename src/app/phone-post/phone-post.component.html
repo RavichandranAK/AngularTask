@@ -1,0 +1,24 @@
+
+
+<html>
+<body>
+
+<h2>Phone Task</h2>
+
+<form >
+  <label>Brand:</label><br>
+  <input type="text" [(ngModel)]="Phone.brand"  name="brand"><br><br>
+  <label>Price:</label><br>
+  <input type="text"  [(ngModel)]="Phone.price"  name="price"><br><br>
+  <label>Color:</label><br>
+  <input type="text" [(ngModel)]="Phone.color"  name="color" ><br><br>
+  <label>Rating:</label><br>
+  <input type="text" [(ngModel)]="Phone.rating"  name="rating" ><br><br>
+
+  <button (click)="submit()"> Submit </button>
+</form> 
+
+
+
+</body>
+</html>

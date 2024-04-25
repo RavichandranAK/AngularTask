@@ -1,0 +1,38 @@
+
+<html>
+
+<body>
+
+<h2>Phone Table</h2>
+
+<table>
+  <tr>
+    <th>Brand</th>
+    <th>Price</th>
+    <th>Color</th>
+    <th>Rating</th>
+  </tr>
+  
+  <!-- <ng-template *ngIf="switchTable; else black"> -->
+    <tr *ngFor="let phone of phonemodel">
+    <td>{{phone.brand}}</td>
+    <td>{{phone.price}}</td>
+    <td>{{phone.color}}</td>
+    <td>{{phone.rating}}</td>
+  </tr>
+  <!-- </ng-template> -->
+  
+  <!-- <ng-template #black>
+    <tr *ngFor="let phone of blackphone">
+      <td>{{phone.brand}}</td>
+      <td>{{phone.price}}</td>
+      <td>{{phone.color}}</td>
+      <td>{{phone.rating}}</td>
+    </tr>
+  </ng-template> -->
+  
+ 
+ 
+</table>
+
+</body>

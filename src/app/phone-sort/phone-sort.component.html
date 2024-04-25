@@ -1,0 +1,14 @@
+<table>
+    <tr>
+      <th>Brand</th>
+      <th>Price</th>
+      <th>Color</th>
+      <th>Rating</th>
+    </tr>
+    <button (click)="sortdesc()">Sort By Price</button>
+    <tr *ngFor="let phone of sortphone">
+      <td>{{phone.brand}}</td>
+      <td>{{phone.price}}</td>
+      <td>{{phone.color}}</td>
+      <td>{{phone.rating}}</td>
+    </tr>  

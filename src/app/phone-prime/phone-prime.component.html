@@ -1,0 +1,15 @@
+<table>
+    <tr>
+      <th>Brand</th>
+      <th>Price</th>
+      <th>Color</th>
+      <th>Rating</th>
+    </tr>
+    <button (click)="prime()">Prime</button>
+
+<tr *ngFor="let phone of primephones">
+  <td>{{phone.brand}}</td>
+  <td>{{phone.price}}</td>
+  <td>{{phone.color}}</td>
+  <td>{{phone.rating}}</td>
+</tr>

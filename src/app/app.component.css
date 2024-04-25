@@ -1,0 +1,29 @@
+
+  /* Styles for the navigation links */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Styles for the button-like links */
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button-link:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
